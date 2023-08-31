@@ -17,7 +17,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26305247'))
 API_HASH = environ.get('API_HASH', '20ca7e6687c281e11782856c7efd0ff7')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6609449380:AAGle29QwW3faG8wxXCGFDGVFEVoEfc-hyw")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6302756306:AAEdWTi86exWgTt8Y4hUYu6IEOqvOTUQ0Y8")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -47,7 +47,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kumarsatyaa6207:fOPOr0gGdQhqmBEZ@cluster0.qk8umiz.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'new')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'new1')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', 0))
